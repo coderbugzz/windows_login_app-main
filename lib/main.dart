@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final bool? isLoggedIn = sharedPreferences.getBool('IS_LOGGED_IN');
 
-    print('isLoggedIn $isLoggedIn');
+    // print('isLoggedIn $isLoggedIn');
 
     return MaterialApp(
       // hidet the debug banner shown at the top right of the screen

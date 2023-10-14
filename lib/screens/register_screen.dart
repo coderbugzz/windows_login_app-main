@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:windows_login_app/helpers/database_helper.dart';
-
-import 'package:windows_login_app/main.dart';
 import 'package:windows_login_app/screens/login_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
