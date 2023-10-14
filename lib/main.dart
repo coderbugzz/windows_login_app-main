@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
 
       // when the application loads, show the login screen if the user is not logged in
       // else show home
-      initialRoute: '/login',
+      initialRoute: isLoggedIn == true ? '/' : '/login',
 
       // define the routes for login and home screen
       routes: {
